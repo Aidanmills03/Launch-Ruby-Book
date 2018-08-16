@@ -1,6 +1,6 @@
-  x = gets.chomp.to_i
+  x = [1, 2, 3, 4, 5]
 
-  for i in 1..x do
+  for i in x do
     puts i
   end
 
